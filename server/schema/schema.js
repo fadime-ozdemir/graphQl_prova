@@ -4,7 +4,7 @@ const Author = require("../models/authors")
 
 const { GraphQLInt, GraphQLNonNull, GraphQLList, GraphQLID, GraphQLObjectType, GraphQLString, GraphQLSchema } = graphql;
 
-
+// these are type definitions
 const BookType = new GraphQLObjectType({
     name: "Book",
     fields: () => ({
